@@ -1,0 +1,167 @@
+.App {
+    text-align: center;
+    padding: 20px;
+    padding-top: 5%;
+  }
+
+  .university-logo {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    border: 2px solid #305378; /* Add a border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c9dbdf;
+    color: #333;
+    /* background-image: url('../public/ii.png');
+    background-size: 900px; */
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2, h3 {
+    margin: 0 0 20px;
+    color: #441515b2;
+    text-align: center;
+  }
+  .section-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    margin-bottom: 20px;
+    color: #000000;
+    padding-top: 3%;
+  }
+  
+  .section-title1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #070606;
+    padding-top: 3%;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  .upload-button {
+    background-color: #72879d;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    background-color: #8b9794;
+  }
+
+  .record-button:hover {
+    background-color: #8b9794;
+  }
+  
+  
+  .file-upload label:hover {
+    background-color: #eaeaea;
+  }
+
+  .prediction {
+    text-align: center;
+  }
+  
+  .prediction-result {
+    font-weight: bold;
+    font-size: x-large;
+    color: #2a62a5; /* Change color as desired */
+  }
+
+  .center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .file-upload {
+    display: flex;
+    align-items: center;
+  }
+  
+  .file-upload input[type="file"] {
+    display: none;
+  }
+  
+  .file-upload label {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #79a3b6;
+  }
+  
+  .file-upload p {
+    margin-left: 10px;
+  }
+
+  .button-container1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .record-button {
+  padding: 10px 20px; /* Add padding to increase button size */
+  font-size: 16px; /* Increase font size for better readability */
+  background-color: #72879d; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .record-button {
+    margin-right: 10px; /* Add margin to the right of the Record button */
+  }
+
+  .button-container2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  
+  

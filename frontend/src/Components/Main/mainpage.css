@@ -1,0 +1,50 @@
+Main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c9dbdf;
+    color: #333;
+    /* background-image: url('../public/ii.png');
+    background-size: 900px; */
+  }
+
+  h1, h2, h3 {
+    margin: 0 0 20px;
+    color: #441515b2;
+    text-align: center;
+  }
+  
+  
+  .button-container {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 50px;
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  .prediction {
+    text-align: center;
+  }
+  
+  .prediction-result {
+    font-weight: bold;
+    color: #6399a8; /* Change color as desired */
+  }
+  

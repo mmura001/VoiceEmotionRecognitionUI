@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Emotion Analyzer</title>
+</head>
+<body>
+    <input type="file" id="audioFileInput">
+    <button onclick="uploadAudio()">Upload Audio</button>
+    <div id="predictionResult"></div>
+
+    <script>
+        async function uploadAudio() {
+            const audioFile = document.getElementById('audioFileInput').files[0];
+            const formData = new FormData();
+            formData.append('file', audioFile);
+
+            try {
+                const response = await fetch('http://127.0.0.1:5000/predict-emotion', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+                document.getElementById('predictionResult').innerText = data.prediction;
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+    </script>
+</body>
+</html>
